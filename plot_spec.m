@@ -31,6 +31,10 @@ function varargout = plot_spec(X,Fs,varargin)
 %          * X_spec = plot_spec(X,Fs, ... ): gives the psd in the output
 %          * [X_spec,F] = plot_spec(X,Fs, ... ): gives the psd and the
 %          frequency bins in the output
+% ------------------------------------------------------------------------
+% TODO:
+%      * get the desired channels
+%      * get the start and stop time
 %% 
 % copyright (c): Mina Jamshidi Idaji (minajamshidi91@gmail.com) 
 % ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
