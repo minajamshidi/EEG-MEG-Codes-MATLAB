@@ -28,6 +28,7 @@ function varargout = plot_spec(X,Fs,varargin)
 %          vertical dashed lines at 10Hz and 20Hz
 %          * plot_spec(X,Fs, 'DoPlot', 0): does not plot, does not give
 %          any output
+%          * plot_spec(X,Fs, 'freq_res', 0.5): frequency resolution 0.5Hz
 %          * X_spec = plot_spec(X,Fs, ... ): gives the psd in the output
 %          * [X_spec,F] = plot_spec(X,Fs, ... ): gives the psd and the
 %          frequency bins in the output
