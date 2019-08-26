@@ -1,5 +1,5 @@
 function [A,W] = ssd(X, freq, Fs, varargin)
-% The function implimenting nonlinear interaction decomposition
+% The function implimenting Spatio-Spectral Decomposition
 
 % INPUT
 %       * X [time x channel]: multi-channel signalto be decomposed
