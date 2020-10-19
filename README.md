@@ -1,4 +1,4 @@
-# EEG-Functions-MATLAB
+# EEG-MEG-Codes-MATLAB
 This repository includes useful MATLAB functions for EEG analysis.
 
 * ssd: is a frequency-domain extension of ssd (spatio-spectral decomposition). Please see the function heading.
