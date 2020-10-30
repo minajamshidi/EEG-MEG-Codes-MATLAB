@@ -45,13 +45,17 @@ function [A,W] = ssd(X, freq, Fs, varargin)
 %% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 % * This functon is basically an extension to the ssd function by Haufe et
 % al, 2014. please check the bbci toolbox (https://github.com/bbci/bbci_public)
-% * FFT part by Mina Jamshidi Idaji (minajamshidi91@gmail.com)
+% ~~~~~~~~
+% * FFT part by (c) Mina Jamshidi Idaji
+% https://github.com/minajamshidi
+% (minajamshidi91@gmail.com)
+%% versions
+% V1 (of the fft part): Aug 2019
+% TODO: hanle epoch indices
 %% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 % * This code is supposed to perform good!  Please report any problem to 
 % the corresponding author of the paper
-%%
-% V1 (of the fft part): Aug 2019
-% TODO: hanle epoch indices
+
 % ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 %% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 % THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS 
